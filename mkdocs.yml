@@ -1,0 +1,12 @@
+site_name: Health Records Docs
+site_description: Documentation for the Health Records project
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Backend: backend.md
+  - Frontend: frontend.md
