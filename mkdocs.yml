@@ -1,0 +1,25 @@
+site_name: Health Records Docs
+site_description: Documentation for the Health Records project
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Backend:
+    - Architecture: backend/ARCHITECTURE.md
+    - Design: backend/design.md
+    - Requirements: backend/requirement.md
+  - Frontend:
+    - Architecture: frontend/ARCHITECTURE.md
+    - Design: frontend/design.md
+    - Requirements: frontend/requirement.md
